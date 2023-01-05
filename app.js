@@ -26,8 +26,8 @@ fetch('https://online-movie-database.p.rapidapi.com/auto-complete?q=spider%20man
                         <div class=" flex-row align-items-center justify-content-center ">
                             <img src="${image}" alt="" class="img-fluid mt-4">
                             <h2 class="mt-5 mb-4">${title}</h2>
-                            <span><small>${cast}</small></span>
-                            <p class="mt-2 mb-2">Ranking:${ranking}</p>
+                            <span>Protagonistas :<small>${cast}</small></span>
+                            <p class="mt-2 mb-2">Ranking :${ranking}</p>
                         </div>
 
                            `
