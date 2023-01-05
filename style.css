@@ -25,4 +25,9 @@ text-align: center;
 #container div img{
     box-shadow: 0 10px 6px -6px rgba(6, 14, 12, .801);
     max-width: 400px;
+    border-radius: 5px;
+    transition: transform .5s ease;
+}
+#container div img:hover{
+    transform: scale(1.1);
 }
